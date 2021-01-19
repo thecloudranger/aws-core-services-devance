@@ -3,23 +3,20 @@
 site_name: AWS Core Services
 site_description: 'In this workshop, you will host a Static Website and build 2-tier Application Architecture, covering the core services and best practices for Compute, Networking, Storage and Databases.'
 #site_author: 'beralfon@amazon.com'
-site_url: 'http://aws-core-services.ws.kabits.com'
+site_url: 'http://aws-core-services.xyz'
 
 # Repository
 #repo_name: 'aws-samples/aws-security-workshops'
-repo_url: 'https://github.com/aurbac/immersion-day-core-services'
+repo_url: 'https://github.com/thecloudranger/aws-core-services-devance'
 
-google_analytics: ['UA-55517703-2', 'aws-core-services.ws.kabits.com']
-
-# Copyright
-copyright: '<a href="https://aws.amazon.com/privacy/" target="blank">Privacy</a> | <a href="https://aws.amazon.com/terms/" target="blank">Site terms</a> | &copy; 2020, Amazon Web Services, Inc. or its affiliates. All rights reserved.'
+google_analytics: ['UA-1111111-2', 'aws-core-services.xyz']
 
 extra:
   social: 
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/aurbac
+      link: https://github.com/thecloudranger
     - icon: fontawesome/solid/home
-      link: http://aws-core-services.ws.kabits.com
+      link: http://aws-core-services.xyz
 
 nav:
     - Home: index.md
@@ -29,6 +26,20 @@ nav:
       - Getting Started with Amazon VPC: getting-started-with-amazon-vpc.md
       - Getting Started with Linux on Amazon EC2: getting-started-with-linux-on-amazon-ec2.md
       - Getting Started with Amazon RDS: getting-started-with-amazon-rds-new.md
+    - Next.JS on AWS using Serverless Framework:
+      - Overview: nextjs-serverless-overview.md
+      - Getting Started: nextjs-serverless-getting-started.md
+      - First Deployment: nextjs-serverless-first-deployment.md
+      - Dynamic Routes: nextjs-serverless-dynamic-routes.md
+    - Amplify on AWS: 
+      - Overview: amplify-on-aws.md
+      - Preparing your development environment: preparing-your-development-environment.md
+      - Adding Authentication: adding-authentication.md
+      - Adding Analytics: adding-analytics.md
+      - Creating a GraphQL API: adding-api.md
+      - Adding Storage: adding-storage.md
+      - Add Translate Text and Text to Speech: adding-predictions.md
+      - Adding Hosting: adding-hosting.md   
 
 theme:
   name: material

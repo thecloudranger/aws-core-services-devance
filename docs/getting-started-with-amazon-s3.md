@@ -52,7 +52,7 @@
 
 * Download static website from github.
 ```console
-git clone https://github.com/aurbac/static-website.git
+git clone https://github.com/thecloudranger/static-website.git
 ```
 * Upload static website, change **`<your-name>-website`** with your bucket name.
 ```console
