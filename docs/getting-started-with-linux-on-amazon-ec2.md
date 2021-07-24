@@ -111,7 +111,7 @@ https://s3.amazonaws.com/immersionday-labs/bootstrap.sh
 
 4.1\. Wait for the instance to pass the Status Checks to finish loading.
 
-4.2\. In the **Description** of the EC2 instance you can find the Public DNS name, copy it and paste in a new browser tab and browse the Web Server by entering Public DNS name into the browser.
+4.2\. In the **Description** of the EC2 instance you can find the Public DNS name, copy it and paste in a new browser tab and browse the Web Server by entering Public DNS name into the browser with a `http://` prefix.
 
 ![Public DNS](images/ec2-public-dns.png)
 
